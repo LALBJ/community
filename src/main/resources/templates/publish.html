@@ -18,7 +18,7 @@
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">麻将社区</span>
             </button>
-            <a class="navbar-brand" href="#">麻将社区</a>
+            <a class="navbar-brand" href="/">麻将社区</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -75,7 +75,7 @@
             </div>
             <div class="form-group">
                 <label for="title">问题补充（必填，请参照右侧提示）：</label>
-                <textarea name="description" id="description" th:text="description" class="form-control" cols="30" rows="10"></textarea>
+                <textarea name="description" id="description" th:text="${description}" class="form-control" cols="30" rows="10"></textarea>
             </div>
             <div class="form-group">
                 <label for="title">添加标签：</label>
